@@ -1,0 +1,38 @@
+.divsix{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 800px;
+}
+.img1{
+    margin-left: 25px;
+}
+.six1{
+    margin-left: 150px;
+}
+.dava{
+    color: #22356F;
+    /* margin-left: 70px; */
+    font-size: 20px;
+    margin-top: 80px;
+    font-family: Larsseit;
+    font-weight: 500;
+    
+}
+.dava1{
+    color: #22356F;
+    margin-top: 180px;
+    margin-right: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 8px;
+    font-family: cursive;
+}
+.dava2{
+    color:#FAB63E;
+    margin-top: 80px;
+    font-family: cursive;
+    font-weight: 600;
+}
+        

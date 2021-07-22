@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import '../src/App.css';
+import { BlockFive } from './component/BlockFive';
+import { BlockFour } from './component/BlockFour';
+import BlockOne from './component/BlockOne';
+import BlockSev from './component/BlockSev';
+import BlockSix from './component/BlockSix';
+import { BlockThree } from './component/BlockThree';
+import BlockTwo from './component/BlockTwo';
+import Header from './component/Header';
+import BlockEi from './component/BlockEi';
+import BlockN from './component/BlockN';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+const  App = () => { 
+  return(
+    <div className="wrapper">
+      <Header/>
+      <BlockOne/>
+      <BlockTwo/>
+      <BlockThree />
+      <BlockFour/>
+      <BlockFive/>
+      <BlockSix/>
+      <BlockSev/>
+      <BlockEi/>
+      <BlockN/>
+      
+
     </div>
-  );
+  )
 }
-
-export default App;
+export default App; 

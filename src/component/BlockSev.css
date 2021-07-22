@@ -1,0 +1,43 @@
+.seven{
+    margin-left: 25px;
+    background-color: #22356F;
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    
+}
+
+.sev{
+    color: white;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.sev1{
+    color: white;
+    font-weight: 900;
+    font-size: 38px;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: cursive;
+    font-family: cursive;
+
+}
+.sev2{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-family: cursive;
+
+}
+.sev3{
+    color: #62D0DF;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 150px;
+    font-family: cursive;
+
+}
